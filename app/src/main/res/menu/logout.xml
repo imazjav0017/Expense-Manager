@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+<item
+    android:title="Logout"
+    android:id="@+id/logout" />
+    <item
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="always"
+        android:title="Search"
+        android:id="@+id/search" />
+    <item android:id="@+id/reset"
+        android:title="Reset"
+        />
+    <item android:id="@+id/statisics"
+        android:title="View Statistics"
+        android:icon="@drawable/ic_action_chart"
+        app:showAsAction="ifRoom"
+        />
+</menu>
